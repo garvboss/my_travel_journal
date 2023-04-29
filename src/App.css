@@ -1,0 +1,86 @@
+*{
+  box-sizing: border-box;
+}
+
+.head{
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  background-color:rgba(13, 207, 104, 0.55);
+}
+
+.head_img{
+  height:2em;
+  width:2em;
+  border-radius:18px;
+  margin-right:0.4em;
+}
+
+.head_title{
+  font-size:1.61rem;
+  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  border-bottom:1px solid;
+}
+
+.cn{
+  display:flex; 
+  flex-direction:column;
+  gap:3%;
+  background-color: rgba(73, 149, 225, 0.747);
+}
+
+.ig{
+  margin-top:-0.5rem;
+}
+.first{
+  display:flex;
+  flex-direction:row;
+  margin: 4rem 7rem;
+}
+
+.limg>img{
+  height:20em;
+  width:23em;
+}
+
+.info{
+  margin-left:3rem;
+  /* margin-top:3rem; */
+}
+
+.ll{
+  width:5%;
+  height:14%;
+  margin-bottom:-0.3rem;
+  margin-left:0.5rem;
+  border-radius:0.3rem
+}
+
+.llc{
+  margin-left:1rem;
+  font-weight:600;
+  font-size:1.4rem;
+}
+
+.googlemaps{
+  margin-left:1rem;
+}
+
+.title{
+  font-size:2rem;
+  margin:0;
+  margin-top:0.99rem;
+  margin-left:0.5rem;
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+}
+
+.pp1{
+  margin-left:0.5rem;
+  font-weight: 550;
+}
+
+.pp2{
+  margin-left:0.5rem;
+  font-weight:450;
+  font-size:1.22rem
+}
